@@ -27,8 +27,6 @@ app.get("/health", (_req: Request, res: Response) => {
 });
 
 app.post("/ping", async (req, res) => {
-  await delay(3000);
-
   const { message } = req.body;
 
   res.json({
