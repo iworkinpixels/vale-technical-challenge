@@ -122,7 +122,7 @@ export default function App() {
             {status === "idle" && <p className="text-muted">Enter a message to begin.</p>}
 
             {status === "loading" && (
-              <div class="d-flex flex-column align-items-center">
+              <div className="d-flex flex-column align-items-center">
                 <div className="spinner" />
                 <p>Loading...</p>
               </div>
